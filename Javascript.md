@@ -1,4 +1,4 @@
-Sobre Javascript y ES
+# Sobre Javascript y ES6
 
 * Lenguaje dinámico
 * EcmaScript = Javascript

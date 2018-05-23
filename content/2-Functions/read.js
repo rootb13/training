@@ -85,6 +85,12 @@ const ashHasFaintedPokemon = pokemonTeam.reduce((fainted, pokemon) => {
   fainted || pokemon.fainted;
 }, false);
 
+// 4.3 forEach
+// Log all pokemon names to console
+pokemonTeam.forEach((pokemon) => {
+  console.log(pokemon.name);
+});
+
 // Footnotes:
 // * Hoisting: https://codeburst.io/javascript-what-is-hoisting-dfa84512dd28
 // * Functions short notations: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
