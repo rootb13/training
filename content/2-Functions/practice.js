@@ -1,6 +1,6 @@
 // CeroUno.io
 // - 1. Send an acceptance e-mail to all students
-// - 2. What should be our priority programming language ?
+// - 2. What are all the languages that students are interested in ?
 // - 3. What is the average age of all the students ?
 
 function sendEmail (student) {
