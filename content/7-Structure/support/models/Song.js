@@ -1,4 +1,4 @@
-export default class Song {
+class Song {
   constructor (name) {
     this.name = name;
     this.played = 0;
@@ -13,3 +13,5 @@ export default class Song {
     this.favorite += 1;
   }
 }
+
+export default Song;
