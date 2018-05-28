@@ -62,16 +62,12 @@ const pokemonTypes = pokemonTeam.map((pokemon) => {
   return pokemon.type;
 });
 
-// Make all pokemon Ash's property
-const ashsPokemont = pokemonTeam.map((pokemon) => {
-  pokemon.owner = 'Ash';
-  return pokemon;
-});
-
-// Give rare candy to all my pokemon
-const levelUpPokemon = pokemonTeam.map((pokemon) => {
-  pokemon.lvl = pokemon.lvl + 1;
-  return pokemon;
+// Get a list of only the name and hp of the pokemon team
+const ashsPokemon = pokemonTeam.map((pokemon) => {
+  return {
+    name: pokemon.name,
+    hp: pokemon.hp
+  }
 });
 
 // 4.2 Reduce
@@ -89,6 +85,11 @@ const ashHasFaintedPokemon = pokemonTeam.reduce((fainted, pokemon) => {
 // Log all pokemon names to console
 pokemonTeam.forEach((pokemon) => {
   console.log(pokemon.name);
+});
+
+// Increase level of all pokemon
+pokemonTeam.forEach((pokemon) => {
+  pokemon.lvl += 1;
 });
 
 // Footnotes:
