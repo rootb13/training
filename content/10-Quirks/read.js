@@ -1,7 +1,9 @@
+// Some ES6 Quirks
+
+// Copying Arrays
 const redFruits = ['apple', 'strawberry', 'cherry'];
 const bigFruits = ['watermelon', 'melon', 'papaya'];
 
-// Copying Arrays
 const fruits = [...redFruits, ...bigFruits];
 console.log(fruits);
 
