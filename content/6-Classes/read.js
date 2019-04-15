@@ -36,8 +36,10 @@ const songNames = [
   'This House Is a Circus', 'If You Were There, Beware', 'The Bad Thing',
   'Old Yellow Bricks', '505'
 ]
+
 songNames.forEach((songName) => { album.addSong(new Song(songName)); });
 album.listSongs();
+
 
 // Basic class structure
 // Amazon Books
@@ -47,6 +49,7 @@ class Book {
     this.price = price;
   }
 }
+
 
 const lotr1 = new Book("LOTR: The fellowship of the ring", 9.99);
 const lotr2 = new Book("LOTR: The two towers", 9.99);

@@ -66,3 +66,5 @@ const tackle = { name: 'Tackle', type: 'normal', damage: 40 };
 const hidroPump = { name: 'Tackle', type: 'water', damage: 100 };
 charizard.defend(tackle);
 charizard.defend(hidroPump);
+
+console.log(charizard)
